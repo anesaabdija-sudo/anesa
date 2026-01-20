@@ -37,13 +37,13 @@ header {
     display: inline;
     margin: 1px;
     padding: 10px;
-    font-size: 12px;
+    font-size: 20px;
     
  
  }
  
  nav ul li a:hover {
-    color: #dedeff;
+    color: #333333;
  }
  
  nav ul li a {
