@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #3F51B5;
+    background-color: #2d5762;
     padding: 15px 0;
     border-radius: 25px;}
  
@@ -22,7 +22,7 @@ header {
  }
 
  header h1{
-    color: white;
+    color:goldenrod;
     
  }
  nav ul {
@@ -59,11 +59,14 @@ header {
  }
 
  .title-section{
-    
+
+    font-family: sans-serif;
+    color: darkgoldenrod;
        background-color: #f9f9f9;
        padding: 1px;
        margin-top: 10px;
        border-radius: 15px;
+       border-image-height: 65vh;
     
     
     }
