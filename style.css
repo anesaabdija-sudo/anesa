@@ -282,15 +282,19 @@ button:hover {
    max-width: 1000px;
    margin: 100px auto;
    padding: 25px;
-   background-color: #3F51B5;
+   background-color: rgb(62, 62, 63);
    border-radius: 10px;
    box-shadow: 0px 20px 10px rgba(0, 0, 0, 0.1);
+   background-image: url(team_faro.png);
+    background-size: cover;
+    background-position: center;
+    
 }
 
 .about p {
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   font-size: 18px;
-   color: white;
+   font-size: 25px;
+   color: goldenrod;
    line-height: 1.5;
 }
 
