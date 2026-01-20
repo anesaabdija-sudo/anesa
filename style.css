@@ -60,9 +60,9 @@ header {
 
  .title-section{
 
-    font-family: sans-serif;
+    font-family: playfair display, serif;
     color: darkgoldenrod;
-       background-color: #f9f9f9;
+       background-color: #a5a4a4;
        padding: 1px;
        margin-top: 10px;
        border-radius: 15px;
@@ -71,7 +71,7 @@ header {
     
     }
 .title-section h1{
-    color: #757de8;
+    color: gold;
     text-align: center;
 }
 h2{
