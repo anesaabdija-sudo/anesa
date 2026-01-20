@@ -62,7 +62,7 @@ header {
 
     font-family: playfair display, serif;
     color: darkgoldenrod;
-       background-color: #a5a4a4;
+       background-color: #2e2d2d;
        padding: 1px;
        margin-top: 10px;
        border-radius: 15px;
@@ -79,6 +79,7 @@ h2{
 }
 h3{
    font-size: 28px;
+   text-align: center;
    
 }
 
