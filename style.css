@@ -1,0 +1,333 @@
+body {
+    font-family: "Montserrat";
+    background-color: white;
+    margin: 10px;
+    
+}
+
+header {
+    background-color: #3F51B5;
+    padding: 15px 0;
+    border-radius: 25px;}
+ 
+ .header-container {
+    display: flex;
+    flex-direction: column;
+    /* Vertical stacking of the items */
+    align-items: center;
+    /* Align items to the start (left)  of the container */
+    
+   
+ }
+
+ header h1{
+    color: white;
+    
+ }
+ nav ul {
+    list-style: none;
+    padding: 0 20px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+ }
+ 
+ nav ul li {
+    display: inline;
+    margin: 1px;
+    padding: 10px;
+    font-size: 12px;
+    
+ 
+ }
+ 
+ nav ul li a:hover {
+    color: #dedeff;
+ }
+ 
+ nav ul li a {
+    color: white;
+    text-decoration: none;
+ }
+ 
+ /* Dropdown styles */
+ nav ul li {
+    position: static;  
+    /* Use inline-block for positioning */
+    margin: 5px;
+ }
+
+ .title-section{
+    
+       background-color: #f9f9f9;
+       padding: 1px;
+       margin-top: 10px;
+       border-radius: 15px;
+    
+    
+    }
+.title-section h1{
+    color: #757de8;
+    text-align: center;
+}
+h2{
+    font-size: 16px;
+}
+h3{
+   font-size: 28px;
+   
+}
+
+
+.flexbox-lists {
+
+   display: flex;
+   gap: 20px;
+   
+}
+
+
+.flexbox-lists>div {
+   flex: 1 1 calc(33.33% - 20px);
+   padding: 10px;
+   border-radius: 4px;
+   background-color: #f9f9f9;
+   box-shadow: 0 15px 6px rgba(0, 0, 0, 0.1);
+   box-shadow: 0 15px 6px rgba(0, 0, 0, 0.1);
+   transition: transform 0.3s ease-in-out; /* Adding a transition for transform property */
+
+}
+
+.flexbox-lists>div:hover {
+   transform: translateY(-5px); /* Applying a translateY transformation on hover */
+}
+
+.flexbox-lists h4 {
+   font-size: 20px;
+   margin-bottom: 10px;
+   color: #333333;
+   text-align: center;
+   text-decoration: solid;
+}
+
+
+.flexbox-lists p {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-align: center;
+   color: #3F51B5;
+}
+/* For mobile screens */
+@media screen and (max-width: 768px) {
+   .flexbox-lists {
+      display: block;
+   }
+
+   .flexbox-lists>div {
+      width: 100%;
+      margin-bottom: 20px;
+   }
+}
+
+/* END OF CSS CARDS */
+
+.background-section {
+   background-color: #3F51B5;
+   padding: 50px 0; /* Adjust top and bottom padding as needed */
+   text-align: center;
+}
+
+.background-section h3{
+   color: white;
+}
+
+.card {
+   background-color: #fbf5eb;
+   border-radius: 8px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+   padding: 20px;
+   max-width: 600px;
+   margin: 10px auto; /* Center the card horizontally */
+   display: flex;
+   
+}
+
+.card h2 {
+   font-size: 24px;
+   margin-bottom: 10px; /* Add spacing between heading and paragraph */
+}
+
+.card p {
+   font-size: 16px;
+}
+
+/* For mobile screens */
+@media screen and (max-width: 600px) {
+   .background-section {
+       padding: 30px 10px; /* Adjust padding for smaller screens */
+   }
+
+   .card {
+       max-width: 100%; /* Set max-width to 100% for smaller screens */
+   }
+}
+
+/*Contact*/
+.container {
+   max-width: 600px;
+   margin: 0 auto;
+   padding: 20px;
+   background-color: #f9f9f9;
+   border-radius: 8px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   margin-top: 40px;
+}
+
+h2 {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.form-group {
+   margin-bottom: 20px;
+}
+
+label {
+   display: block;
+   font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 8px;
+}
+
+button {
+   width: 100%;
+   padding: 10px;
+   background-color: #3F51B5;
+   color: white;
+   border: none;
+   border-radius: 8px;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: #4c72b9;
+}
+
+
+/* Desgining Blockcahin prog. lang. part*/
+.languange h1{
+   text-align: center;
+}
+
+.programming-languages {
+   display: block;
+   justify-content: space-between;
+   max-width: 1000px;
+   margin: 0 auto;
+   background-color: #4c9ab9;
+   border-radius: 8px;
+   box-shadow: 0px 2px 4px;
+
+}
+
+.language {
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+}
+
+.language .image {
+   margin-right: 20px;
+}
+
+.language img {
+   width: 100px;
+   height: 100px;
+   border-radius: 20px;
+}
+
+.language .text h3 {
+   margin-bottom: 12px;
+   color: white;
+}
+
+.language .text p {
+   font-size: 16px;
+   color: white;
+}
+
+/* Designing About page*/
+.about {
+   max-width: 1000px;
+   margin: 100px auto;
+   padding: 25px;
+   background-color: #3F51B5;
+   border-radius: 10px;
+   box-shadow: 0px 20px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about p {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 18px;
+   color: white;
+   line-height: 1.5;
+}
+
+
+/* Designing the footer*/
+.footer {
+   background-color: #333333;
+   color: #fff;
+   padding: 50px 0;
+   text-align: center;
+   align-items: end;
+}
+
+.footer-inner {
+   display: flex;
+   justify-content: space-around;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.footer-column {
+   flex: 1;
+   margin: 0 20px;
+}
+
+.footer h3 {
+   font-size: 20px;
+   margin-bottom: 20px;
+  
+}
+
+.footer p {
+   font-size: 16px;
+   line-height: 1.6;
+}
+
+.social-icons {
+   list-style: none;
+   padding: 0;
+}
+
+.social-icons li {
+   display: inline-block;
+   margin: 0 5px;
+}
+
+.social-icons a {
+   color: #fff;
+   font-size: 24px;
+   transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+   color: #3F51B5;
+}
