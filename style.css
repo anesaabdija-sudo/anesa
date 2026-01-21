@@ -322,7 +322,7 @@ button:hover {
 }
 
 .social-icons a {
-   color: #fff;
+   color: goldenrod;
    font-size: 24px;
    transition: color 0.3s ease;
 }
