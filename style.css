@@ -296,6 +296,10 @@ button:hover {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    min-height: 80vh;
+    justify-content: flex-end;
+    padding: 2rem;
+
 
     
 
