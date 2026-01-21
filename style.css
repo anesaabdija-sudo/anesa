@@ -287,7 +287,7 @@ button:hover {
    background-color: rgb(62, 62, 63);
    background-image: url(team_faro.png);
     background-position: center;
-    align-items:flex-end;
+    align-items:center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
