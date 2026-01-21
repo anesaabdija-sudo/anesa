@@ -156,7 +156,7 @@ h3{
 }
 
 .card {
-   background-color: #fbf5eb;
+   background-color:rgb(62, 62, 63);
    border-radius: 8px;
    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
    padding: 20px;
