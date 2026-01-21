@@ -309,7 +309,7 @@ button:hover {
    line-height: 1.5;
    text-align: center;
    margin: 0;
-   justify-content: center;
+   justify-content: flex-end;
    max-width: 700px;
    padding: 2rem;
    border-radius: 20px;
