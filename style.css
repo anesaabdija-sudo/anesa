@@ -2,7 +2,8 @@ body {
     font-family: "sans-serif";
     color: goldenrod;
     background-color: rgb(62, 62, 63);
-    margin: 0
+    margin: 0;
+    animation: fadeIn 2s ease-in-out;
     
 }
 
@@ -25,7 +26,7 @@ header {
  header h1{
     color:goldenrod;
     font-size: 50px;
-    animation: fadeIn 2s ease-in-out;
+
     
  }
  nav ul {
