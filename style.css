@@ -1,7 +1,7 @@
 body {
     font-family: "sans-serif";
     color: goldenrod;
-    background-color: rgb(62, 62, 63);
+    background-color: rgb(62, 62, 63) ! important; 
     margin: 0;
     animation: fadeIn 2s ease;
     
